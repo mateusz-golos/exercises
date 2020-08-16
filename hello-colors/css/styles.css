@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+nav{
+    position: fixed;
+    left: 50%;
+    top: 3%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    transition: .3s
+}
+
+a:hover {
+    color: #052017;;
+}
+
+a, .main-paragraph>p, h2, h3 {
+    color: #08af8b;
+    font-family: 'Lato';
+}
+
+
+.navigation li { 
+    display: inline-block;
+    margin: 0 15px;
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.column-left, .column-right {
+    color: #fff;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, .extra-gutters{
+    font-family: 'Inconsolata';
+}
+
+.column-left {
+    background-color: #222883;
+}
+
+.column-left h1 { 
+    font-size: 75px;  
+    color: #fce304;  
+}
+
+.column-right {
+    background-color: #3ecaf5;
+}
+
+.top-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.main-paragraph {
+    height: 15vh;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+.works-img {
+    position: relative;
+    width: 100%;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+    color: #052017;
+    background-color: #0ac098;
+}
+
+.works h4 {
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+}
+
+.extra-gutters {
+    padding: 50px 60px;
+    color: #052017;
+}
+
+.extra-gutters p {
+    font-size: 25px;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+.team-img, .contact-img {
+    width: 100%;
+}
+
+.team-img {
+    margin-bottom: 20px;
+}
+
+.team-margin {
+    margin-top: 60px;
+}
+
+.team-margin h3 {
+    line-height: 100%;
+}
+
+.team-margin p {
+    margin-top: 90px;
+    font-family: 'Lato';
+}
+
+footer {
+    background-color: #08af8b;
+}
+
+.social-media-icon {
+    height: 60px;
+    margin: 10px;
+}
+
+.social-media-container {
+    text-align: center;
+}
+
+footer {
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    color: #fff;
+    text-align: right;
+}
